@@ -1,0 +1,214 @@
+%-------------------------
+% Resume in Latex
+% Author : Syed Ali Raza
+% Based off of: https://github.com/jakegut/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Syed Ali Raza} \\ \vspace{16pt}
+    \small 085 209 9600 $|$ 
+    Apt 2, 3 Dublin Road, Portlaoise $|$ 
+    Permission: EU Stamp 4
+\end{center}
+
+\begin{center}
+    \href{mailto:isyedaliraza@gmail.com}{\underline{isyedaliraza@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/isyedaliraza}{\underline{linkedin.com/in/isyedaliraza}} $|$
+    \href{https://github.com/isyedaliraza}{\underline{github.com/isyedaliraza}}
+\end{center}
+
+%-----------Summary-----------
+\section{Summary}
+I'm a Software Engineer with over 5 years of experience in Full-stack development. I have worked with a variety of technologies like Flutter, React, Node.js, Django, Odoo, WordPress, Unity etc. I am a quick learner and love to learn new things. I always look for ways to improve my skills and build better software.
+
+%-----------EMPLOYMENT HISTORY-----------
+\section{Employment History}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Senior Software Engineer}{2020 -- 2024}
+      {Business and Digital Technology Center -- Baramej®}{Muscat, OM}
+      \resumeItemListStart
+        \resumeItem{Implemented 3D data center infrastructure management system. Integrated IoT devices and third-party systems like PBX for SMS and Phone alerts.}
+        \resumeItem{Developed a middleware insurance platform in Python and JavaScript, linking Omantel and Ooredoo with third-party insurance brokers.}
+        \resumeItem{Developed metaverse identity for Ministry of Transport Communications and Information Technology using Unity.}
+        \resumeItem{Developed and published a number of applications with features such as OAuth, payment integration, google maps integration, order management, booking management etc.}
+        \resumeItem{Designed and developed REST APIs using Django, Flask, Node.js, Firebase Cloud Functions, and Laravel.}
+        \resumeItem{Conducted training and knowledge transfer sessions.}
+        \resumeItem{Managed administration related tasks such as processing sales and purchase invoices, communicating with customers via phone \& email, filing \& scanning paperwork etc.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Full Stack Developer}{2018 -- 2020}
+      {Tilal Al Sad Projects and Investment L.L.C}{Muscat, OM}
+      \resumeItemListStart
+        \resumeItem{Developed and maintained responsive websites using Wordpress and Drupal.}
+        \resumeItem{Designed and developed intuitive UIs using React, Bootstrap, Tailwind CSS, and Figma enhancing user experience.}
+        \resumeItem{Modernized legacy systems by porting vanilla PHP projects to Node.js, improving performance and maintainability.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National University of Computer and Emerging Sciences}{Islamabad, PK}
+      {Bachelor of Science -- Computer Science}{2013 -- 2017}
+    \resumeSubheading
+      {FG Degree College for Men}{Wah Cantt, PK}
+      {Intermediate -- Pre-Engineering}{2011 -- 2013}
+    \resumeSubheading
+      {POF Model High School}{Wah Cantt, PK}
+      {Matriculation}{2011 -- 2013}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, JavaScript, Dart, Swift, Java, C++, HTML/CSS, SQL, NoSQL, JSON, XML} \\
+     \textbf{Frameworks}{: Flutter, React, Next.js, Odoo, Node.js, Django, Laravel, WordPress, Drupal, Bootstrap, Tailwind CSS} \\
+     \textbf{Developer Tools}{: Git, GitHub, Jira, Slack, Docker, Google Cloud Platform, Neovim, VS Code, PyCharm, IntelliJ, Xcode, Android Studio}\\
+     \textbf{Design Tools}{: Figma, Adobe XD, Adobe Photoshop, Adobe Illustrator, Photopea}
+    }}
+ \end{itemize}
+
+%-----------INTERPERSONAL SKILLS-----------
+\section{Interpersonal Skills}
+\small
+Learning, Problem-solving, Teamwork/ Collaboration, Self-motivation, Ability to work under pressure, Time management, Adaptability, Responsibility, Communication
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\small
+Was awarded fully-funded ICT scholarship (Prime Minister's National ICT Scholarship Award) to pursue Bachelor's degree in Computer Science
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+S. Nizami, A. Basharat, A. Shaukat, U. Hameed, S. A. Raza, A. Bekele, R. Giffen, and J. R. Green, “CEA: Clinical Event Annotator mHealth Application for Real-time Patient Monitoring,” in the Proc. of 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC'18), Honolulu, HI, USA, July 17-21, 2018.
+
+
+%-----------HOBBIES/ INTERESTS-----------
+\section{Hobbies \& Interests}
+Learning new things, Cybersecurity, Machine Learning, Gaming, Travelling, Food
+
+%-----------REFERENCES-----------
+\section{References}
+Available upon request
+
+%-------------------------------------------
+\end{document}
